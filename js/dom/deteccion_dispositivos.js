@@ -76,11 +76,10 @@ export default function userDeviceInfo(id) {
     `;
   }
 
+  /*Redireccionamiento*/
 
-/*Redireccionamiento*/
+  // if(isMobile.android()){
 
-if(isMobile.android()){
-
-    window.location.href = "https://www.youtube.com/watch?v=WHfyN411fd4&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=93";
-}
+  //     window.location.href = "https://www.youtube.com/watch?v=WHfyN411fd4&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=93";
+  // }
 }
